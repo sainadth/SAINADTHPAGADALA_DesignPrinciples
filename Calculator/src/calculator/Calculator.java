@@ -4,7 +4,7 @@ public class Calculator {
   
     public static void main(String[] args) {
         // TODO code application logic here
-        int num1 = 0,num2 = 0;
+        double num1 = 0,num2 = 0;
         try{
             System.out.println("Enter number 1: ");
             num1 = CalculatorData.inputData();
@@ -16,7 +16,7 @@ public class Calculator {
         }
         while(true){
             System.out.println("Choose an operation among the following\n1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n5. Division Modulo\n6. Exit");
-            int choice = CalculatorData.inputData();
+            int choice = (int)CalculatorData.inputData();
             if(choice == 6){
                 System.out.println("Calculator Ended ....");
                 return;
