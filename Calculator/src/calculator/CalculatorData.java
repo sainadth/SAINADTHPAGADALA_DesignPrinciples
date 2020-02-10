@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class CalculatorData {
     static char a[] = {'+', '-', '*', '/', '%'};
     static Scanner scanner = new Scanner(System.in);
-    public static int inputData(){
-        int n = scanner.nextInt();
+    public static double inputData(){
+        double n = scanner.nextInt();
         return n;
     }
     
