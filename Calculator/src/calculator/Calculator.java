@@ -13,6 +13,8 @@ public class Calculator {
         }
         catch(Exception e){
             System.out.println("Invalid Input!....");
+            System.out.println("Calculator Terminated ....");
+            return;
         }
         while(true){
             System.out.println("Choose an operation among the following\n1. Addition\n2. Substraction\n3. Multiplication\n4. Division\n5. Division Modulo\n6. Exit");
