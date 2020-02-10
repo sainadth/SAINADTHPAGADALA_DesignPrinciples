@@ -7,7 +7,7 @@ public class CalculatorData {
     static char a[] = {'+', '-', '*', '/', '%'};
     static Scanner scanner = new Scanner(System.in);
     public static double inputData(){
-        double n = scanner.nextInt();
+        double n = scanner.nextDouble();
         return n;
     }
     
